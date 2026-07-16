@@ -1,0 +1,47 @@
+.wp-block-elektro-hero {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    color: #ffffff;
+}
+
+.wp-block-elektro-hero .wp-block-elektro-hero__background {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.wp-block-elektro-hero .wp-block-elektro-hero__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%);
+}
+
+.wp-block-elektro-hero .wp-block-elektro-hero__content {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 72vh;
+    padding: 120px 8vw 100px;
+    box-sizing: border-box;
+}
+
+.wp-block-elektro-hero .wp-block-elektro-hero__title {
+    font-size: clamp(36px, 4.2vw, 62px);
+    font-weight: 800;
+    line-height: 1.05;
+    margin-bottom: 28px;
+}
+
+.wp-block-elektro-hero .wp-block-elektro-hero__description {
+    font-size: 21px;
+    line-height: 1.65;
+    margin-bottom: 34px;
+}

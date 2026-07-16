@@ -1,0 +1,29 @@
+msgid "Hero Title"
+msgstr ""
+
+msgid "Hero Description"
+msgstr ""
+
+msgid "Background Image"
+msgstr ""
+
+msgid "Edit Hero"
+msgstr ""
+
+msgid "Save Hero"
+msgstr ""
+
+msgid "Select Background Image"
+msgstr ""
+
+msgid "Hero Block"
+msgstr ""
+
+msgid "Customize your hero component"
+msgstr ""
+
+msgid "Inline text editing"
+msgstr ""
+
+msgid "Background image customization"
+msgstr ""

@@ -1,0 +1,22 @@
+{
+  "name": "elektro-hero-plugin",
+  "version": "1.0.0",
+  "description": "A Gutenberg block plugin for creating a customizable hero component with inline text editing and background image support.",
+  "main": "elektro-hero-plugin.php",
+  "scripts": {
+    "build": "echo No build step required",
+    "start": "echo No dev server required",
+    "lint": "echo No lint configured"
+  },
+  "keywords": [
+    "wordpress",
+    "gutenberg",
+    "plugin",
+    "hero",
+    "block"
+  ],
+  "author": "Your Name",
+  "license": "GPL-2.0-or-later",
+  "dependencies": {},
+  "devDependencies": {}
+}

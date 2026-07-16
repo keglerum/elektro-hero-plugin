@@ -1,0 +1,32 @@
+{
+  "apiVersion": 2,
+  "name": "elektro/hero",
+  "title": "Hero Block",
+  "category": "layout",
+  "icon": "format-image",
+  "description": "A customizable hero component with inline text editing and background image support.",
+  "textdomain": "elektro-hero-plugin",
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "customClassName": true,
+    "html": false
+  },
+  "attributes": {
+    "backgroundImage": {
+      "type": "string",
+      "default": ""
+    },
+    "title": {
+      "type": "string",
+      "default": "Belysning og lysstyring for naring, industri og borettslag"
+    },
+    "description": {
+      "type": "string",
+      "default": "Vi prosjekterer, installerer og vedlikeholder moderne belysningsanlegg og smarte styringssystemer for naringsbygg, industri og fellesarealer."
+    }
+  },
+  "editorScript": "file:./edit.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css"
+}
